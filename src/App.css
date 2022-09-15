@@ -1,38 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  overflow: hidden;
+  font-family: 'Roboto'; 
+  background-color: white;
+  height: 100vh;  
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.body-l {
+  margin-left: 129px;
+  margin-right: 129px;
+}
+
+.menu{
+  height: 100vh;
+  background-color: #212121; 
+  transition: 0.5s;
+  width: 150px;
+}
+ul li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  transition: 0.3s;
+  /*text-align: center;*/
+}
+ul li:hover{
+  padding-left: 35px;
+  background-color: #445665;
+}
+ul li a{
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.logo{
+  text-align: center;
+  margin-top: 20px;
+}
+.logo img{ 
+  width: 310px;
+  height: 122px;
+}
+
+.retangle{
+  text-align: center;
+  height: 210px;
+  background: #EFEFEF;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.retangle h3 {
+  margin-top: 38px;
+  margin-bottom: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.retangle p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding: 0 269px 38px 269px;
+  
+}
+
+hr {
+  margin-left: -129px;
+}
+.lorem{
+  width: 470px;
+  height: 252px;
+  margin-top: 40px;
+}
+.lorem h3 {
+  margin-bottom: 20px;
+}
+.lorem-1 {
+  display: flex;
+}
+.lorem-1 p {
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.lorem-p{
+  font-family: 'Roboto';
+}
+
+.content{
+  display: flex;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 1768px;
+  height: 79px;
+  margin-left: 279px;
+}
+footer p {
+  margin: 30px 0;
 }
